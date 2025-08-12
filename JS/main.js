@@ -101,7 +101,7 @@ function showToast(msg, time = 3000) {
                 parentNode.remove()
                 renderTask(task)
 
-                showToast(task.isDone ? '🎉 Задача выполнена!' : '▶️ Задача возвращена!')
+                showToast('🎉 Задача выполнена!')
             }
         }
         saveToLocalStorage()
