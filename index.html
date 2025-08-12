@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List | Medok Jesus</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./img/todo.ico">
+</head>
+<body>
+    <!-- loader -->
+  <div class="show-loader">
+    <span class="loader"></span>
+  </div>
+
+    <!-- todo -->
+<main>
+    <div class="todo-wrapper">
+        <div class="todo-content">
+
+            <div class="search">
+              <form id="form" action="#">
+                <input type="text" id="taskInput" placeholder="Add a new task">
+                <button type="submit" id="search__btn"><img src="./img/plus.svg" alt="plus"></button>
+              </form>
+            </div>
+
+            <h5 class="tasks-text">Your tasks:</h5>
+            <div id="tasksList" class="todo-tasks"></div>
+            <h5 class="tasks-text">completed tasks:</h5>
+            <div id="completedTasksList" class="todo-tasks"></div>
+
+        </div>
+    </div>
+</main>
+
+    <!-- Toast -->
+
+     <div id="toast-container">
+         
+    </div> 
+
+    <script src="./JS/main.js"></script>
+</body>
+</html>
